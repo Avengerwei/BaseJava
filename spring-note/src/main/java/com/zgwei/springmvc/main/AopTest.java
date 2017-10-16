@@ -28,6 +28,7 @@ public class AopTest {
         Art art = (Art) context.getBean("art");
         Encoreable encoreable = (Encoreable) art;
         encoreable.performEncore();
+        System.out.println("====");
 
 
     }
